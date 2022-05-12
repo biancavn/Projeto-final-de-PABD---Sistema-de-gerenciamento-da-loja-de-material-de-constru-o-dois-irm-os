@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.StackPane?>
+
+<AnchorPane id="AnchorPane" prefHeight="493.0" prefWidth="669.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controlador.PaginaPrincipalController">
+   <children>
+      <AnchorPane layoutX="536.0" prefHeight="493.0" prefWidth="165.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fx:id="buttonFrotaVeiculos" fitHeight="48.0" fitWidth="153.0" layoutX="8.0" layoutY="245.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/frota.png" />
+               </image>
+            </ImageView>
+            <ImageView fx:id="buttonDeposito" fitHeight="49.0" fitWidth="158.0" layoutX="8.0" layoutY="187.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/deposito.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="163.0" layoutX="6.0" layoutY="31.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/logo_Doisirmaos.png" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+      <StackPane fx:id="pilhaPainel" layoutX="-1.0" layoutY="-4.0" prefHeight="493.0" prefWidth="536.0" style="-fx-background-color: white;">
+         <children>
+            <ImageView fitHeight="488.0" fitWidth="537.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/sua%20construção%20começa%20aqui%20(2).png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="488.0" fitWidth="537.0" layoutX="13.0" layoutY="13.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../imagens/sua%20construção%20começa%20aqui%20(2).png" />
+               </image>
+            </ImageView>
+         </children></StackPane>
+   </children>
+</AnchorPane>

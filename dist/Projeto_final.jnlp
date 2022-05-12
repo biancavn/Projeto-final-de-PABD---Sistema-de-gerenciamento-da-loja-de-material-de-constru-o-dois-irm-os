@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="Projeto_final.jnlp">
+  <information>
+    <title>Projeto_final</title>
+    <vendor>Bianca</vendor>
+    <description>null</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="Projeto_final.jar" size="511812" download="eager" />
+    <jar href="lib\mysql-connector-java-8.0.28.jar" size="2476480" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="Projeto_final" >
+    <param name="requiredFXVersion" value="8.0+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="projeto_final.Projeto_final"  name="Projeto_final" />
+  <update check="always"/>
+</jnlp>
